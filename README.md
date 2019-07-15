@@ -6,4 +6,4 @@
 
 This module is part of the [Apache Sling](https://sling.apache.org) project.
 
-Apache Johnzon powered javax.json library
+[Apache Johnzon](https://johnzon.apache.org/) powered javax.json library
