@@ -26,6 +26,11 @@
     <name>Apache Sling Commons Johnzon Wrapper Library</name>
     <description>Apache Johnzon powered javax.json library</description>
 
+    <properties>
+        <sling.java.version>8</sling.java.version>
+        <project.build.outputTimestamp>2020-02-25T13:37:42Z</project.build.outputTimestamp>
+    </properties>
+
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-johnzon.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-johnzon.git</developerConnection>
