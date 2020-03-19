@@ -50,6 +50,8 @@
 Export-Package: javax.json.*;-split-package:=first
 Private-Package: org.apache.johnzon.core
 Import-Package:
+# Taken over from the embedded geronimo-json_1.1_spec
+Provide-Capability: osgi.contract;osgi.contract=JavaJSONP;uses:="javax.json,javax.json.spi,javax.json.stream";version:List<Version>="1.1,1.0"
                    ]]></bnd>
                         </configuration>
                     </execution>
