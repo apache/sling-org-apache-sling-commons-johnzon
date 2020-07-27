@@ -78,7 +78,7 @@ Provide-Capability: osgi.contract;osgi.contract=JavaJSONP;uses:="javax.json,java
         <dependency>
             <groupId>org.apache.johnzon</groupId>
             <artifactId>johnzon-core</artifactId>
-            <version>1.2.3</version>
+            <version>1.2.8</version>
             <scope>provided</scope>
         </dependency>
         <!-- OSGi annotations (OSGi R7) -->
