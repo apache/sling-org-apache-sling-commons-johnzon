@@ -20,21 +20,21 @@
     </parent>
 
     <artifactId>org.apache.sling.commons.johnzon</artifactId>
-    <version>1.2.6</version>
+    <version>1.2.7-SNAPSHOT</version>
 
     <name>Apache Sling Commons Johnzon Wrapper Library</name>
     <description>Apache Johnzon powered javax.json library</description>
 
     <properties>
         <sling.java.version>8</sling.java.version>
-        <project.build.outputTimestamp>2020-10-09T09:47:06Z</project.build.outputTimestamp>
+        <project.build.outputTimestamp>2020-10-09T09:47:29Z</project.build.outputTimestamp>
     </properties>
 
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-johnzon.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-johnzon.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-commons-johnzon.git</url>
-        <tag>org.apache.sling.commons.johnzon-1.2.6</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
