@@ -92,7 +92,7 @@ Provide-Capability: osgi.contract;osgi.contract=JavaJSONP;uses:="javax.json,java
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.annotation.versioning</artifactId>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
