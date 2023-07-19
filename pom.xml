@@ -20,7 +20,7 @@
     </parent>
 
     <artifactId>org.apache.sling.commons.johnzon</artifactId>
-    <version>1.2.15-SNAPSHOT</version>
+    <version>1.2.21-SNAPSHOT</version>
 
     <name>Apache Sling Commons Johnzon Wrapper Library</name>
     <description>Apache Johnzon powered javax.json library</description>
@@ -84,7 +84,7 @@ Provide-Capability: osgi.contract;osgi.contract=JavaJSONP;uses:="javax.json,java
         <dependency>
             <groupId>org.apache.johnzon</groupId>
             <artifactId>johnzon-core</artifactId>
-            <version>1.2.14</version>
+            <version>1.2.21</version>
             <scope>provided</scope>
         </dependency>
         <!-- OSGi annotations (OSGi R7) -->
