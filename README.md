@@ -8,6 +8,6 @@ This module is part of the [Apache Sling](https://sling.apache.org) project.
 
 [Apache Johnzon](https://johnzon.apache.org/) powered jakarta.json library.
 
-This wrapper allows to use [JSON-P 1.1](https://jcp.org/aboutJava/communityprocess/pr/jsr374/index.html) with Apache Johnzon in an OSGi container without requiring an OSGi ServiceLoader Mediator implementation like [SPI Fly](https://aries.apache.org/modules/spi-fly.html) by overwriting the [JSONProvider](https://github.com/apache/sling-org-apache-sling-commons-johnzon/blob/master/src/main/java/javax/json/spi/JsonProvider.java) to always load Apache Johnzon and not relying on the Service Loader.
+This wrapper allows to use [JSON-P 2.1](https://javaee.github.io/jsonp/) with Apache Johnzon in an OSGi container without requiring an OSGi ServiceLoader Mediator implementation like [SPI Fly](https://aries.apache.org/modules/spi-fly.html) by overwriting the [JSONProvider](https://github.com/apache/sling-org-apache-sling-commons-johnzon/blob/master/src/main/java/javax/json/spi/JsonProvider.java) to always load Apache Johnzon and not relying on the Service Loader.
 
 See also [JOHNZON-108](https://issues.apache.org/jira/browse/JOHNZON-108) and [GERONIMO-6640](https://issues.apache.org/jira/browse/GERONIMO-6560).
